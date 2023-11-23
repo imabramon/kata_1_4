@@ -1,11 +1,19 @@
+@import url("../../fonts/TTLakes.css");
+
 .lang-switcher{
-
+    display: flex;
+    gap: 7px;
 }
 
-.lang-switcher__lang{
-
+.lang-switcher__lang-item{
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1B1C21;
 }
 
-.lang-switcher__lang--selected{
-    
+.lang-switcher__lang-item--selected{
+    color: #7E7E82;
 }
