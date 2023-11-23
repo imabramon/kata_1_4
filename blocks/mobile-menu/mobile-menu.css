@@ -3,6 +3,9 @@
     flex-direction: column;
     width: 320px;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .mobile-menu__header{
