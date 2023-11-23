@@ -79,6 +79,14 @@
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: -0.2px;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.mobile-menu__link-item:hover{
+    color: #7E7E82;
 }
 
 .mobile-menu__link-item--selected{
