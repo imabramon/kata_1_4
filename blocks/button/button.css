@@ -1,0 +1,48 @@
+.button{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF3E79;
+}
+
+.button__icon{
+    --button-icon-size: 17px;
+    --button-icon-height: var(--button-icon-size);
+    --button-icon-width: var(--button-icon-size);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: "";
+    width: var(--button-icon-width);
+    height: var(--button-icon-height);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button--close .button__icon{
+    --button-icon-size: 16px;
+    background-image: url("img/close.svg");
+}
+
+.button--search .button__icon{
+    --button-icon-size: 17px;
+    background-image: url("img/search.svg");
+}
+
+.button--phone .button__icon{
+    --button-icon-size: 18px;
+    background-image: url("img/phone.svg");
+}
+
+.button--chat .button__icon{
+    --button-icon-size: 20px;
+    background-image: url("img/chat.svg");
+}
+
+.button--profile .button__icon{
+    --button-icon-height: 18px;
+    --button-icon-width: 20px;
+    background-image: url("img/profile.svg");
+}
